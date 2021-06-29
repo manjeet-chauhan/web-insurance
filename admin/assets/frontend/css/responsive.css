@@ -1,0 +1,191 @@
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+	max-width: 1340px !important;
+}
+}
+@media screen 
+  and (min-device-width: 1300px) 
+  and (max-device-width: 1500px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+	max-width: 1240px !important;
+}
+.Header {
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+	padding: 14px 0px;
+	margin-bottom: 20px;
+}
+}
+@media (max-width: 1400px){
+.NavigationLink ul li {
+	padding: 7px;
+}
+.Header .Navigation {
+	width: 62.2%;
+}
+.Search {
+	width: 4.8%;
+}
+.BookDescripition p {
+	font-size: 14px;
+	color: #999;
+}
+}
+@media (max-width: 1024px){
+	.Header .row{
+		margin: 0 !important;
+	} 
+	.Header {
+		padding: 10px 0px !important;
+	}
+}
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+.Logo {
+	order: 1;
+}
+.Search {
+	order: 2;
+}
+.Profile {
+	order: 3;
+}
+.Navigation {
+	order: 4;
+}
+.Header .Profile {
+	width: 31%;
+}
+.Header .Logo {
+	width: 60%;
+}
+.Header .Logo img {
+	width: 46%;
+}
+.Search {
+	width: 9%;
+}
+.Header .Navigation {
+	width: 100%;
+}
+.NavigationLink ul li {
+	padding: 12px;
+	font-size: 14px;
+	font-weight: 600;
+}
+#myHeader .container{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+  }
+}
+@media (max-width: 480px){
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.Formobile{
+	display: block;
+}
+.Profile{
+	display: none;
+}
+.Header .Logo {
+    width: 40%;
+}
+.Header .Navigation {
+	width: 60%;
+}
+.ToogleButton {
+	text-align: right;
+}
+.Search {
+	width: 100%;
+}
+.search_input {
+	width: 85% !important;
+	position: initial;
+	padding: 0 10px;
+	caret-color: #e11e26;
+	transition: width 0.4s linear;
+	border: 2px solid;
+}
+.search_icon {
+	background: #e11e26;
+	color: #fff;
+	border-radius: 0;
+	transition: 0.4s;
+	width: 15%;
+}
+.searchbar{
+	margin-top: 10px;
+	padding: 0;
+}
+.Header{
+	padding: 0;
+	padding-top: 10px !important;
+}
+.ToogleButton img{
+	height: 20px;
+}
+.Formobile .Profile {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.ProfileImage img {
+	width: 100%;
+	border-radius: 50%;
+	height: 50px !important;
+	width: 50px !important;
+}
+.ProfileImage {
+	width: 12%;
+}
+.Profile .UserDetail {
+	padding-right: 10px;
+}
+.NavigationLink{
+	height: initial;
+	margin: initial;
+	padding: 0px 10px;
+}
+.NavigationLink ul{
+	display: initial;
+}
+.MobilleProfileImage img {
+	width: 100%;
+	border-radius: 50%;
+}
+.ToogleButton{
+	display: block;
+}
+.MobilleProfileImage {
+	width: 14%;
+}
+.UserDetail {
+	width: 86%;
+}
+.LoginSection {
+	background: url(../images/login-background.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: 45% 61%;
+}
+.LoginForm input {
+	font-size: 14px;
+	background: transparent;
+}
+.LoginForm label {
+    color: #999;
+    font-size: 14px;
+}
+}

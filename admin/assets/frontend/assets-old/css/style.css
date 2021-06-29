@@ -1,0 +1,587 @@
+/*beingprakashdubey*/
+a:hover{
+	text-decoration: none !important;
+}
+.Header{
+	box-shadow:rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+	padding: 14px;
+	margin-bottom: 20px;
+}
+.Header .Logo{
+	width: 15%;
+}
+.Header .Logo img{
+	width: 100%;
+}
+.Header .Navigation{
+	width: 63.2%;
+}
+.Search{
+	width: 3.8%;
+}
+.Header .Profile{
+	width: 18%;
+}
+.Header .row{
+	margin: 0;
+}
+.Profile .row{
+	margin: 0;    
+	-webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.NavigationLink ul{
+	list-style-type: none;
+	flex-wrap: wrap;
+	padding-left: 0;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.NavigationLink ul li{
+	padding: 10px;
+}
+.NavigationLink{
+	display: block;
+	width: max-content;
+	margin: auto;
+	height: 100%;
+	transition: 0.5s;
+}
+.NavigationLink ul li a{
+	color: #ff2e1f;
+}
+.NavigationLink ul li.Active{
+	background: #ff2e1f;
+}
+.NavigationLink ul li.Active a{
+	color: #fff;
+}
+.ProfileImage {
+	width: 20%;
+}
+.UserDetail{
+	width: 80%;
+}
+.ProfileImage img{
+	width: 100%;
+	border-radius: 50%;
+}
+.Profile .UserDetail{
+	padding-left: 10px;
+}
+.Profile .UserDetail .UserName h4{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Profile .UserDetail .UserEmail p{
+	font-size: 14px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: 2px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    }
+
+.search_input {
+	color: #ff2e1f;
+	border: none;
+	outline: 0;
+	background: #fff;
+	width: 0;
+	caret-color: transparent;
+	line-height: 40px;
+	transition: width 0.4s linear;
+	position: absolute;
+	right: 100%;
+	height: 40px;
+}
+.searchbar:hover > .search_input {
+	padding: 0 10px;
+	width: 450px;
+	caret-color: #ff2e1f;
+	transition: width 0.4s linear;
+	border: 2px solid;
+}
+    .searchbar:hover > .search_icon{
+    background: #ff2e1f;
+    color: #fff;
+    border-radius: 0;
+    transition: 0.4s;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    background: #ff2e1f;
+    transition: 0.4s;
+    }
+.DisplayNone{
+	opacity: 0;
+	transition: 0.5s;
+}    
+.Heading h4{
+	color: #ff2e1f;
+	font-weight: 600;
+}
+.Heading {
+	position: relative;
+	padding-bottom: 5px !important;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ced4da;
+}
+.Heading::before {
+	content: '';
+	background: #ff2e1f;
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	bottom: -1px;
+	z-index: 9;
+}
+.BookImage {
+	max-height: 350px;
+	overflow: hidden;
+}
+.BookImage img{
+	width: 100%;
+}
+.SingleBook label{
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 0;
+	color: #666;
+}
+.SingleBook {
+	/*border: 1px solid #ced4da;*/
+	border-radius: 5px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.BookDetails{
+	padding: 10px;
+}
+.BookTitle h4 {
+	font-weight: 600;
+	font-size: 16px;
+}
+.ReadBook button{
+	background: #ff2e1f;
+	color: #fff;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+	border-radius: 2px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+.Footer{
+	background: #ff2e1f;
+	padding: 10px 0px;
+	margin-top: 20px;
+}
+.Footer p{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+.SingleCollection .SingleBook {
+	height: 100%;
+}
+.Pagination{
+	margin-top: 20px;
+}
+.Pagination .Previous, .Pagination .Next{
+	background: #ff2e1f;
+	color: #fff;
+	border-color: #ff2e1f;
+	border-radius: 0px !important;
+	width: 100px;
+	text-align: center;
+}
+.Pagination ul li{
+	margin: 0px 5px;
+}
+.Pagination ul li a{
+	color: #ff2e1f;
+	border-color: #ff2e1f;
+}
+.SinglePrice {
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+	text-align: center;	
+}
+.SinglePrice h4{
+	background: #ff2e1f;
+	color: #fff;
+	padding: 15px 0px;
+	margin-bottom: 0;
+}
+.SinglePrice p{
+	border-bottom: 1px solid #ced4da;
+	margin-bottom: 0;
+	padding: 15px 0px;
+	font-weight: 600;
+}
+.SinglePrice h5{
+	font-size:28px;
+	font-weight: 600;
+	padding: 15px 0px;
+	margin-bottom: 0;
+}
+.SinglePrice button{
+	background: #ff2e1f;
+	color: #fff;
+	border-radius: 0px;
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+.SinglePrice button:hover{
+	color: #fff;
+	background: #ef4438;
+	transition: 0.4s;
+}	
+.box {
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.box-tools {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.dropzone-wrapper {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+  position: relative;
+  height: 150px;
+}
+
+.dropzone-desc {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 40%;
+  top: 50px;
+  font-size: 16px;
+}
+
+.dropzone,
+.dropzone:focus {
+  position: absolute;
+  outline: none !important;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+  background: #ecf0f5;
+}
+
+.preview-zone {
+  text-align: center;
+}
+
+.preview-zone .box {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.CreateMemoirBook .Input{
+	margin-bottom: 28px;
+}
+.CreateMemoirBook .Input input{
+	height: 45px;
+	border-radius: 2px !important;
+}
+.CreateMemoirBook .Input select{
+	height: 45px;
+	border-radius: 2px !important;
+}
+.CreateMemoirBook .Input textarea{
+	resize: none;		border-radius: 2px !important;
+}
+.CreateMemoirBook label{
+	font-weight: 600;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+	color: #fff;
+	border-color: #ff2e1f !important;
+	background-color: #ff2e1f !important;
+}
+.custom-switch .custom-control-label::after {
+	background-color: #ff2e1f !important;
+}
+.custom-control-input:checked ~ .custom-control-label::after{
+	background-color: #fff !important;
+}
+.Input button{
+	background: #ff2e1f;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px 40px;
+}
+.Input .input-group-prepend .input-group-text {
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	background: #ff2e1f;
+	border-color: #ff2e1f;
+}
+.LoginSection{
+	background: url(../images/login-background.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;	
+}
+.UserIcon img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+.WelcomeText h4{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	margin: 15px 0px;
+	font-size: 35px;
+}
+
+
+
+/* form starting stylings ------------------------------- */
+.LoginForm .group 			  { 
+  position:relative; 
+}.LoginForm .group.Margin 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+.LoginForm input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width: 100%;
+  border:none;
+  border-bottom:2px solid #757575;
+  height: 40px;
+}
+
+.LoginForm input:focus {
+	border: none;
+}
+.LoginForm input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+.LoginForm label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:0px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  font-weight: 600;
+}
+
+/* active state */
+.LoginForm input:focus ~ label, input:valid ~ label 		{
+  top:-14px;
+  font-size:14px;
+  color:#999;
+  font-weight: normal;
+}
+
+/* BOTTOM BARS ================================= */
+.LoginForm .bar 	{ position:relative; display:block; width:100%; }
+.LoginForm .bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#999; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  border-radius: 10px;
+}
+.LoginForm .bar:before {
+  left:50%;
+}
+.LoginForm .bar:after {
+  right:50%; 
+}
+
+/* active state */
+.LoginForm input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.LoginForm .highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.LoginForm input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+:not(output):-moz-ui-invalid {
+	box-shadow: none !important;
+}
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+.ForgetPassword a{
+	font-weight: 600;
+	text-align: right;
+	color: #999;
+}
+.ForgetPassword{
+	margin-top: 10px;
+}
+.ForgetPassword p{
+	text-align: right;
+}
+.LoginButton button{
+	background: rgb(151,23,23);
+	background: -moz-linear-gradient(90deg, rgba(151,23,23,1) 0%, rgba(192,24,24,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(151,23,23,1) 0%, rgba(192,24,24,1) 100%);
+	background: linear-gradient(90deg, rgba(151,23,23,1) 0%, rgba(192,24,24,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#971717",endColorstr="#c01818",GradientType=1); 
+	color: #fff;
+	font-weight: 600;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 100px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.LoginButton button:hover{
+	 background: rgb(192,24,24);
+	background: -moz-linear-gradient(90deg, rgba(192,24,24,1) 0%, rgba(151,23,23,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(192,24,24,1) 0%, rgba(151,23,23,1) 100%);
+	background: linear-gradient(90deg, rgba(192,24,24,1) 0%, rgba(151,23,23,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c01818",endColorstr="#971717",GradientType=1); 
+	color: #fff;
+	font-weight: 600;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 100px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.NewAccount{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.LoginForm input:focus ~ label i, input:valid ~ label i .LoginForm label i{
+	width: 15px;
+	text-align: center;
+}
+
+.LoginForm label i{
+	width: 25px;
+	text-align: center;
+}
+.LoginButton {
+	margin-top: 20px;
+}
+.LoginCenter{
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.LoginSection .container{
+	height: 100% !important;
+	min-height: 100% !important;
+	max-height: 100% !important; 
+}
+.LoginSection .container .row{
+	height: 100% !important;
+	min-height: 100% !important;
+	max-height: 100% !important; 
+}
+.Login{
+	width: 100%;
+}

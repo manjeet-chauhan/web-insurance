@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+    <title>Upload data to Insurance Database</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://homeofbulldogs.com/dev/insurance-csv/xls.js"></script>
+</head>
+
+<body>
+    
+    
+    
+    <div class="conatiner-fluid mt-5">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2"><input class="form-control" type="text" id="company_code" placeholder="Enter company code." accept=""  ><small><div id="msg"  style="background:#f3a32c;color:white"></div></small></div>
+            <div class="col-md-2"><input class="form-control" type="text" id="format_title" placeholder="Enter Format Title." accept=""  ></div>
+            <div class="col-md-3">
+                <input class="form-control" type="file" id="input" accept=""  >
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success" id="add-format">Add Format</button>
+            </div>
+             
+             <div class="col-md-2">
+                <a href="index.html"><button class="btn btn-primary" id="">Upload Data</button></a>
+            </div>
+<div class="col-md-12">
+    <pre> 
+<table border="1" id="csv_format_data_from_server">
+    
+
+
+</table>
+    </pre>
+</div>
+        </div>
+    </div>
+
+    <script src="http://homeofbulldogs.com/dev/insurance-csv/production.js"></script>
+
+</body>
+</html>

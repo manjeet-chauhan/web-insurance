@@ -1,0 +1,17 @@
+[07-Feb-2020 14:06:55 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Home_model::validate_email() in /home/homeofbulldogs/public_html/dev/freelance/application/modules/home/models/Home_model.php on line 82
+[12-Mar-2020 17:13:56 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Admin::template_request() in /home/homeofbulldogs/public_html/dev/marketing-lobby/application/modules/admin/controllers/Admin.php on line 138
+[10-Mar-2021 18:59:32 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Admin_model::booking_list() in /home/homeofbulldogs/public_html/dev/sallon/application/modules/admin/models/Admin_model.php on line 282
+[30-Apr-2021 12:17:14 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:17:26 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:17:27 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:17:43 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:21:39 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:21:48 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:21:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:22:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:23:05 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:23:20 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:24:09 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:25:54 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:32:02 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[30-Apr-2021 12:37:28 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
